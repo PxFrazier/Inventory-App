@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/login-styles.css">
+</head>
+<body>
+<div class="container">
+    <img src="/assets/logo.png" alt="NWLSD logo" class="logo">
+    <h1 class="banner">NWLSD Tech Dept Inventory System</h1>
+    <form method="POST" action="login" class="login-form">
+        <input name="username" type="text" placeholder="username" value="<%= locals.username %>">
+        <input name="password" type="text" placeholder="password" value="<%= locals.password %>">
+        <input type="submit" value="submit" class="sub-btn">
+    </form>
+</div>
+</body>
+</html>

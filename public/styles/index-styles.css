@@ -1,0 +1,67 @@
+.query-form
+{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.submit-btn
+{
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25em;
+    background-color: #333;
+    color: #eee;
+}
+
+.submit-btn:hover
+{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.query
+{
+    font-size: 1rem;
+    padding: 0.5rem
+}
+
+.logo
+{
+    width: 100%;
+    height: 20em;
+}
+
+#search-label
+{
+    font-size: 1.5rem;
+}
+
+.result-container
+{
+    text-align: left;
+    padding: 1.5em 0.75em;
+    background-color: #eee;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1em;
+    border-top-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    font-size: 1.25em;
+    font-family: sans-serif;
+}
+
+.result-container > p
+{
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.result-container > header
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p:nth-of-type(odd)
+{
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="scripts/index-script.js"></script>
+    <link rel="stylesheet" href="styles/index-styles.css">
+</head>
+<body>
+    <img src="/assets/logo.png" alt="NWLSD logo" class="logo">
+    <form method="POST" action="query" class="query-form">
+        <label for="name" id="search-label">Find part: </label>
+        <input name="name" type="text" placeholder="example: displays" value="<%= locals.name %>" class="query">
+        <input name="type" type="text" placeholder="example: B116XTN02" value="<%= locals.type %>" class="query">
+        <input type="submit" value="submit" class="submit-btn">
+    </form>
+    <div class="result-container">
+        <header>Search Results for <%= locals.query_name %></header>
+        <%- locals.results %>
+    </div>
+</body>
+</html>

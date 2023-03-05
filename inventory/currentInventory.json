@@ -1,0 +1,64 @@
+[
+    {
+        "name": "displays",
+
+        "stock": [
+            {"type": "B116XTN02", "count": 39},
+            {"type": "NT116WHM-N21", "count": 47}
+        ]
+    },
+    {
+        "name": "top covers",
+
+        "stock": [
+            {"type": "JYCZFBC", "count": 20}
+        ]
+    },
+    {
+        "name": "keyboards",
+
+        "stock": [
+            {"type": "AD01G_C80B", "count": 3},
+            {"type": "AL1G_A15B", "count": 3},
+            {"type": "ADLB46_1D003", "count": 3}
+        ]
+    },
+    {
+        "name": "mainboards",
+
+        "stock": [
+            {"type": "NB.HBN11.005", "count": 4}
+        ]
+    },
+    {
+        "name": "bezels",
+
+        "stock": [
+            {"type": "BEZ-SNG-18516", "count": 1}
+        ]
+    },
+    {
+        "name": "batteries",
+
+        "stock": [
+            {"type": "L15C3PB0", "count": 2},
+            {"type": "AP18C8K", "count": 7},
+            {"type": "AP18K4K", "count": 1}
+        ]
+    },
+    {
+        "name": "chargers",
+
+        "stock": [
+            {"type": "SK9020025", "count": 3},
+            {"type": "A18-045N1A", "count": 68}
+        ]
+    },
+    {
+        "name": "cases",
+
+        "stock": [
+            {"type": "AC-ESL-C722-BLK", "count": 10}
+        ]
+    }
+]
